@@ -21,6 +21,9 @@ npm run dev
 
 # Formato del elemento JSON para crear o actualizar un elemento:
 
+Los elementos que se envien deben tener el siguiente formato como en el ejemplo:
+
+```
 {
   "name": "Core Buster",
   "mode": "AMRAP 20",
@@ -39,6 +42,7 @@ npm run dev
     "Go unbroken on the thrusters",
     "Take the abmat sit-ups as a chance to normalize your breath"
   ]
-}.
+}
+```
 
 * En caso de actualizar, incluir el id en la URL.
